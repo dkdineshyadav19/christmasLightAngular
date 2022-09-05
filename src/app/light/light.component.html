@@ -1,0 +1,25 @@
+<div class="d-flex justify-content-center align-items-center">
+    <h1 class="text-light">Christams Lights</h1>
+</div>
+<main class="container p-3 main ">
+        
+    <div class="box d-flex justify-content-center align-items-center">
+        <div class="light  blue"   [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  red"    [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  yellow" [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  green"  [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  blue"   [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  red"    [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  yellow" [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+        <div class="light  green"  [ngStyle]="{'animation': value,'animation-duration':speed}" ></div>
+    </div>
+</main>
+    <div class="d-flex justify-content-center align-items-center">
+        <button class="btn btn-light btn-md m-3" (click)="play()">Play</button>
+        <button class="btn btn-light btn-md m-3" (click)="stop()">Stop</button>
+    </div>
+    <div class="d-flex justify-content-center align-items-center">
+
+        <input type="text" placeholder="speed" [(ngModel)]="speed">
+        <button class="btn btn-light btn-md ml-1" (click)="AniSpeed()">submit</button>
+    </div>

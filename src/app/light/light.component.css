@@ -1,0 +1,82 @@
+.light{
+    height:4vh;
+    width:4vh;
+    border-radius: 50%;
+    margin-left: 20px;
+   
+    
+}
+.main{
+   
+}
+.box{
+    
+    height:50vh;
+    
+}
+.red{
+    background-color:#d22511 ;
+    animation: effect 2s infinite;
+    animation-delay: 2s;
+}
+@keyframes effect{
+    0%,100%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0 0 20px 5px #d22511;
+    }
+}
+.yellow{
+    background-color:#f8dc03 ;
+    
+    animation: effect1 2s infinite;
+    
+}
+@keyframes effect1{
+    0%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: 0 0 20px 5px #f8dc03;
+    }
+}
+.blue{
+    background-color: #0a66ef;
+    animation: effect2 2s infinite;
+    
+}
+@keyframes effect2{
+    0%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: 0 0 20px 5px #0a66ef;
+    }
+}
+.green{
+    background-color: #49f505;
+    animation: effect3 2s infinite;
+    animation-delay: 2s;
+}
+@keyframes effect3{
+    0%,100%{
+        box-shadow: none;
+    }
+    50%{
+        box-shadow: 0 0 20px 5px #49f505;
+    }
+}
+.info{
+    background-color: hsl(31, 98%, 51%);
+    animation: effect4 2s infinite;
+    animation-delay: 2s;
+}
+@keyframes effect4{
+    0%{
+        box-shadow: none;
+    }
+    100%{
+        box-shadow: 0 0 20px 5px hsl(31, 98%, 51%);
+    }
+}
